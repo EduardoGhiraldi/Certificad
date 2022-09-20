@@ -45,6 +45,15 @@ body {
   border: 2px solid #0e1d2f;
   border-radius: 100px;
   color: black;
+  cursor: pointer;
+}
+.tema button:hover {
+  background: #1c1c1c;
+  color: #ffffff;
+}
+button:active {
+  transform: translateY(4px);
+  box-shadow: 0 3px #666;
 }
 
 .projetos {
@@ -86,4 +95,26 @@ body {
 .dark .tema button {
   background: #1c1c1c;
   color: #ffffff;
+}
+.dark .tema button:hover {
+  background: #ecf4ff;
+  color: black;
+}
+.linkedin {
+  max-height: 50px;
+  padding: 15px;
+}
+.aqui {
+  float: right;
+  align-content: baseline;
+}
+
+.aqui .linkedin {
+  flex: 33.33%;
+  padding: 12px;
+}
+.linguagens {
+  align-items: flex;
+  max-height: 80px;
+  padding: 45px;
 }
