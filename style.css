@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap");
+
+body {
+  background: linear-gradient(236.85deg, #a0937b 27.26%, #001a5c 96.03%);
+  font-family: "Source Serif Pro", serif;
+}
+.container {
+  background: #ecf4ff;
+  margin: 65px;
+  border-radius: 25px;
+  box-shadow: 6px 6px 6px #0e1d2f;
+  color: #1c1c1c;
+  padding: 60px;
+}
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+
+.perfil {
+  display: flex;
+}
+.perfil-foto {
+  border-radius: 460px;
+  max-height: 140px;
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.5);
+}
+.titulo {
+  margin-left: 20px;
+}
+.titulo h1 {
+  font-weight: 700;
+  font-size: 36px;
+}
+.titulo h3 {
+  font-weight: 400;
+  font-size: 24px;
+}
+.tema button {
+  align-self: flex-end;
+  font-size: 24px;
+  font-weight: 400;
+  padding: 8px 16px;
+  background: #ecf4ff;
+  border: 2px solid #0e1d2f;
+  border-radius: 100px;
+  color: black;
+}
+
+.projetos {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(236.85deg, #0ffff8 27.26%, #03cafb 96.03%);
+  margin-top: 22px;
+  padding: 32px;
+  box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+  border-radius: 20px;
+}
+.projetos-titulo {
+  list-style: none;
+  font-weight: 700;
+  font-size: 36px;
+}
+.projetos-item {
+  list-style-type: none;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 46px;
+}
+.projetos-item a {
+  color: #1c1c1c;
+  text-decoration: none;
+}
+
+.dark {
+  background: #1c1c1c;
+}
+.dark .container {
+  background: #333439;
+  color: black;
+  box-shadow: 6px 6px 6px #0e1d2f;
+}
+.dark .projetos {
+  background: gray;
+}
+.dark .tema button {
+  background: #1c1c1c;
+  color: #ffffff;
+}
